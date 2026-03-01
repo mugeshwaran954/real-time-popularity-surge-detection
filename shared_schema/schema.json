@@ -1,0 +1,16 @@
+{
+  "input_schema": {
+    "tweet_id": "string",
+    "timestamp": "datetime (UTC)",
+    "text": "string",
+    "likes": "integer",
+    "source": "string"
+  },
+  "output_schema": {
+    "window_start": "datetime",
+    "window_end": "datetime",
+    "tweet_count": "integer",
+    "surge_score": "float",
+    "surge_level": "string"
+  }
+}
